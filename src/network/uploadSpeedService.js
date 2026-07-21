@@ -6,7 +6,7 @@ const TEST_DURATION = 10000; // 10 seconds
 
 // Upload a single chunk
 async function uploadChunk(blob) {
-    const response = await fetch(API_URL, {
+    const response = await fetch(`${API_URL}/upload`, {
         method: "POST",
         body: blob,
     });
