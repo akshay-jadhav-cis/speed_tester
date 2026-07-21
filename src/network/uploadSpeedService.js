@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/upload";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const STREAMS = 4;
 const CHUNK_SIZE = 1024 * 1024; // 1 MB
