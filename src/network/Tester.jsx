@@ -36,6 +36,8 @@ export default function Tester() {
                         <div className="card-body text-center">
                             <h3>Upload Speed</h3>
                             <button onClick={handleUpload}>Upload Speed measure</button>
+                            <br />
+
                             <strong>{uploadSpeed}</strong>
 
                             <p>Mbps</p>
